@@ -23,11 +23,11 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="5dp"
+        android:hint="Ingrese su mensaje"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnEnviar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lstMensajes"
-        tools:text="Mensaje" />
+        app:layout_constraintTop_toBottomOf="@+id/lstMensajes" />
 
     <Button
         android:id="@+id/btnEnviar"
